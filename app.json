@@ -1,0 +1,45 @@
+{
+  "expo": {
+    "name": "CATSUP359NU",
+    "slug": "catsup369nu",
+    "version": "1.2.3",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/icon.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#FFFFFF"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "deploymentTarget": "13.0",
+      "bundleIdentifier": "com.nife36.catsupnu",
+      "supportsTablet": true,
+      "infoPlist": {
+        "ITSAppUsesNonExemptEncryption": false,
+        "NSCameraUsageDescription": "CATSUP needs camera access to scan homework photos",
+        "NSPhotoLibraryUsageDescription": "CATSUP needs photo library access to help with homework"
+      },
+      "entitlements": {
+        "com.apple.developer.in-app-payments": ["merchant.com.nife36.catsupnu"]
+      }
+    },
+    "android": {
+      "package": "com.nife36.catsup",
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/icon.png",
+        "backgroundColor": "#FFFFFF"
+      }
+    },
+    "extra": {
+      "eas": {
+        "projectId": "7c9fc30c-e51c-4fe7-9c3a-c5c4a0e7af8b"
+      },
+      "revenueCatPublicKeyIos": "appl_gNFmOHvscXhhhoQWpgDvVPQeLZm"
+    },
+    "owner": "ohadren"
+  }
+}
